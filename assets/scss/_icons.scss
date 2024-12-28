@@ -1,0 +1,64 @@
+@mixin icon($name, $color: currentColor) {
+  mask-image: url('/icons/#{$name}.svg');
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  background-color: $color;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+.icon {
+  &-network {
+    @include icon('network');
+  }
+  
+  &-users {
+    @include icon('users');
+  }
+  
+  &-unlock {
+    @include icon('unlock');
+  }
+  
+  &-copy {
+    @include icon('copy');
+  }
+  
+  &-group {
+    @include icon('group');
+  }
+  
+  &-dashboard {
+    @include icon('dashboard');
+  }
+  
+  &-clock {
+    @include icon('clock');
+  }
+  
+  &-swap {
+    @include icon('swap');
+  }
+  
+  &-menu {
+    @include icon('menu');
+  }
+  
+  &-github {
+    @include icon('github');
+  }
+  
+  &-settings {
+    @include icon('settings');
+  }
+  
+  &-close {
+    @include icon('close');
+  }
+  
+  &-wallet {
+    @include icon('wallet');
+  }
+} 

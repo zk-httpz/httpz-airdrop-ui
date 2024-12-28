@@ -1,0 +1,23 @@
+@use 'variables';
+@use 'mixins';
+@use 'animations';
+@use 'icons';
+
+:root {
+  // Colors
+  --color-primary: #{$color-primary};
+  --color-primary-hover: #{$color-primary-hover};
+  --color-background: #{$color-background};
+  --color-secondary: #{$color-secondary};
+  --color-text-primary: #{$color-text-primary};
+  --color-text-secondary: #{$color-text-secondary};
+  
+  // Fonts
+  --font-heading: #{$font-heading};
+  --font-body: #{$font-body};
+  --font-code: #{$font-code};
+  
+  // Layout
+  --container-width: #{$container-width};
+  --border-radius: #{$border-radius};
+} 

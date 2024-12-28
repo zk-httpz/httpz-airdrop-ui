@@ -1,0 +1,23 @@
+// Colors
+$color-primary: #00FF88;
+$color-primary-hover: #00FF9D;
+$color-background: #090B0F;
+$color-secondary: #10131A;
+$color-text-primary: #FFFFFF;
+$color-text-secondary: #8B949E;
+
+// Typography
+$font-heading: 'Montserrat', sans-serif;
+$font-body: 'Inter', sans-serif;
+$font-code: 'JetBrains Mono', monospace;
+
+// Layout
+$container-width: 1200px;
+$border-radius: 8px;
+$grid-gap: 1rem;
+$transition-default: all 0.3s ease;
+
+// Breakpoints
+$breakpoint-mobile: 480px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px; 

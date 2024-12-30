@@ -4,7 +4,7 @@ const appConfig = useAppConfig();
 const config = useRuntimeConfig();
 
 // Construct full URL for Twitter image
-const twitterImageUrl = `${config.public.siteUrl}/images/banner.svg`;
+const twitterImageUrl = `${config.public.siteUrl}/images/banner.png`;
 
 useSeoMeta({
   title: appConfig.name,

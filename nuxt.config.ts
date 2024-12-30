@@ -13,6 +13,36 @@ const addHeadersPlugin = () => ({
 
 export default defineNuxtConfig({
   ssr: false,
+  app: {
+    head: {
+      meta: [
+        {
+          name: "twitter:card",
+          content: "summary_large_image",
+        },
+        {
+          name: "twitter:site",
+          content: "@zk_httpz",
+        },
+        {
+          name: "twitter:title",
+          content: "claim.httpz.link",
+        },
+        {
+          name: "twitter:description",
+          content: "Claim your $Httpz tokens - A community-driven token on Mina Protocol",
+        },
+        {
+          name: "twitter:image",
+          content: "https://claim.httpz.link/images/banner.png",
+        },
+        {
+          name: "twitter:domain",
+          content: "claim.httpz.link",
+        },
+      ],
+    },
+  },
 
   css: ["~/assets/scss/main.scss"],
 

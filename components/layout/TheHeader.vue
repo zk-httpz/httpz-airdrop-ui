@@ -47,7 +47,7 @@
           <span class="icon icon-menu"></span>
         </button>
         <div class="dropdown-menu" :class="{ active: isMenuOpen }">
-          <a href="https://github.com/mina-httpz/mina-httpz-token" target="_blank" rel="noopener noreferrer"
+          <a href="https://github.com/zk-httpz/mina-httpz-token" target="_blank" rel="noopener noreferrer"
             class="nav-item">
             <span class="icon icon-github"></span>
             Github
